@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Calculator, Brain, Zap, Scale } from "lucide-react";
+import { Calculator, Brain, Zap, Scale, Dices } from "lucide-react";
 
 const apps = [
   {
@@ -37,7 +37,16 @@ const apps = [
     color: "from-emerald-500 to-teal-500",
     delay: 0.3,
   },
+  {
+    id: "slot",
+    title: "Slot Machine",
+    description: "Puxe a alavanca e tente a sorte! Combine 3 símbolos para ganhar o jackpot.",
+    icon: Dices,
+    color: "from-amber-500 to-orange-500",
+    delay: 0.4,
+  },
 ];
+
 
 export default function Home() {
   return (

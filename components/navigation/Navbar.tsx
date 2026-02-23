@@ -22,7 +22,7 @@ export function Navbar() {
         
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/seuusername/brain-gym"
+            href="https://github.com/Cloud-Yuri/brain-gym"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-white transition-colors"
